@@ -1,0 +1,140 @@
+body{
+    background: #F4F4F4;
+    margin: 0;
+  
+        
+}
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: #4444444;
+}
+.container{
+    
+    width: 780px;
+    margin: 0 auto;
+    background:#FFF;
+    box-shadow: 3px 0px 2px 2px;
+}
+.header{
+    padding:40px 0 20px 40px;
+    
+}
+.menu{
+   
+    background: rgba(22, 147, 239, 0.58);;
+    padding: 6px 0 6px 40px;
+}
+.menu a {
+    color: #646565;
+    text-decoration:none;
+    font-size: 18px;
+    font-family:sans-serifS
+    
+}
+.menu a:hover{
+    color: antiquewhite;
+}
+#home-image img{
+  width: 100%;
+}
+.page-heading{
+    text-align: center;
+margin-bottom: 5px;
+}
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+h1{
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Arial Narrow" , "Myraid Pro";
+    font-weight: normal;
+    
+    }
+h2{
+    color: #646565;
+font-size: 15px;
+    margin: 20px o 5px 0;
+}
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0 ;
+    color: #444444;
+    font-family:"Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+footer{
+    
+    color: #436150;
+    background: #bbbbbb;
+padding: 6px 40px 6px 40px;
+    text-decoration:right;
+    font-family: "Georgira";
+}
+footer a{
+    text-decoration: none;
+    color: #262626;
+}
+footer a:hover{
+    color: 2F553C;
+}
+.seprator{
+    color: #FFFFFF;
+}
+
+
+
+/*******************About Page ************/
+
+#about-page #home-image img{
+    width: 70%;
+float: left;
+    margin-bottom: 10px;
+}
+#about-page #profile-info{
+    
+    float: right;
+    width: 25%;
+    margin: 4px;
+    
+}
+#about-page #description{
+    clear: both;
+}
+
+
+
+
+/***************Contact Page*********************/
+ 
+#contact #form{
+        width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 3px 0px 2px 2px;
+    
+}
+
+#contact #form input{
+        width: 100%;
+    border-radius: 4px;
+    height: 20px;
+    background:#ecf2f3;
+}
+
+#contact #form #message{
+        width: 100%;
+    border-radius: 4px;
+    background:#ecf2f3;
+}
+#contact #form #submit{
+    
+        height: 25px;
+    background:rgba(22, 147, 239, 0.58);;
+}
